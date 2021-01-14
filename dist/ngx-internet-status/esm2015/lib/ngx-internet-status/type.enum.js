@@ -1,6 +1,0 @@
-export var OnlineStatusType;
-(function (OnlineStatusType) {
-    OnlineStatusType[OnlineStatusType["OFFLINE"] = 0] = "OFFLINE";
-    OnlineStatusType[OnlineStatusType["ONLINE"] = 1] = "ONLINE";
-})(OnlineStatusType || (OnlineStatusType = {}));
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidHlwZS5lbnVtLmpzIiwic291cmNlUm9vdCI6IkQ6L0V4cGVyaW1lbnRzL0ludGVybmV0U3RhdHVzL3Byb2plY3RzL25neC1pbnRlcm5ldC1zdGF0dXMvc3JjLyIsInNvdXJjZXMiOlsibGliL25neC1pbnRlcm5ldC1zdGF0dXMvdHlwZS5lbnVtLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLE1BQU0sQ0FBTixJQUFZLGdCQUdUO0FBSEgsV0FBWSxnQkFBZ0I7SUFDeEIsNkRBQVcsQ0FBQTtJQUNYLDJEQUFVLENBQUE7QUFDWixDQUFDLEVBSFMsZ0JBQWdCLEtBQWhCLGdCQUFnQixRQUd6QiIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBlbnVtIE9ubGluZVN0YXR1c1R5cGUge1xyXG4gICAgT0ZGTElORSA9IDAsXHJcbiAgICBPTkxJTkUgPSAxXHJcbiAgfSJdfQ==
