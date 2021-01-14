@@ -1,8 +1,0 @@
-<div  class="banner" *ngIf="status !== undefined && settings.type ==='banner'" [ngClass]="{'online': status === OnlineStatusType.ONLINE, 'offline':status === OnlineStatusType.OFFLINE }">
-    <h2> {{status === OnlineStatusType.OFFLINE ? settings.offlineTitle : settings.onlineTitle }}</h2>
-    <span> <label>{{ status === OnlineStatusType.OFFLINE ? settings.offlineText : settings.onlineText }}</label></span>
-</div>
-
-<div class="text-only" *ngIf="settings.type==='textonly'">
-    <span>{{ status === OnlineStatusType.OFFLINE ? settings.offlineText : settings.onlineText }}</span>
-</div>
