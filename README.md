@@ -1,27 +1,125 @@
-# InternetStatus
+<!-- ![](./images/preview.png) -->
+<h1 align='center'>ngx-sand-internet-status</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
+<h3 align="center"> An angular internet status checker</h3>
+<br>
+<p align="center"> 
+  <a href="https://github.com/SandeepBalachandran/ngx-sand-internet-status/releases/" target="_blank">
+    <img alt="GitHub release" src="https://img.shields.io/github/v/release/SandeepBalachandran/ngx-sand-internet-status?include_prereleases&style=flat-square">
+  </a> 
 
-## Development server
+  <a href="https://github.com/SandeepBalachandran/ngx-sand-internet-status/commits/main" target="_blank">
+    <img src="https://img.shields.io/github/last-commit/SandeepBalachandran/ngx-sand-internet-status?style=flat-square" alt="GitHub last commit">
+  </a>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+  <a href="https://github.com/SandeepBalachandran/ngx-sand-internet-status/issues" target="_blank">
+    <img src="https://img.shields.io/github/issues/SandeepBalachandran/ngx-sand-internet-status?style=flat-square&color=red" alt="GitHub issues">
+  </a>
 
-## Code scaffolding
+  <a href="https://github.com/SandeepBalachandran/ngx-sand-internet-status/pulls" target="_blank">
+    <img src="https://img.shields.io/github/issues-pr/SandeepBalachandran/ngx-sand-internet-status?style=flat-square&color=blue" alt="GitHub pull requests">
+  </a>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+  </br>
 
-## Build
+  <a href="https://standardjs.com" target="_blank">
+    <img alt="ESLint" src="https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square">
+  </a>
+  
+  <a href="" target="_blank">
+    <img alt="ESLint" src="https://img.shields.io/github/stars/SandeepBalachandran/ngx-sand-internet-status">
+  </a>
+  
+  <a href="" target="_blank">
+    <img alt="ESLint" src="https://img.shields.io/github/forks/SandeepBalachandran/ngx-sand-internet-status">
+  </a>
+   <a href="" target="_blank">
+    <img alt="Codesize" src="https://img.shields.io/github/languages/code-size/SandeepBalachandran/ngx-sand-internet-status.svg">
+  </a>
+  <a href="" target="_blank">
+    <img alt="Top Language" src="https://img.shields.io/github/languages/top/SandeepBalachandran/ngx-sand-internet-status.svg">
+  </a>
+  
+</p>
+<hr>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Demo 
+![](https://github.com/SandeepBalachandran/ngx-sand-internet-status/raw/main/assets/demo.gif) 
 
-## Running unit tests
+* [Live Demo]()
+* [Playground]()
+* [NPM package](https://www.npmjs.com/package/ngx-sand-internet-status)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Table of contents
+* [Features](#features)
+* [Installation](#getting-started)
+* [API](#api)
+* [Usage](#usage)
 
-## Running end-to-end tests
+## Features
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+[Goto Top](#table-of-contents)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Getting Started
+### Step 1 : Install the package 
+#### NPM
+```cmd
+npm install ngx-sand-internet-status
+```
+### Step 2 : After installation import  into your root or feature module
+
+```cmd
+import { NgxInternetStatusModule } from 'ngx-internet-status'
+```
+### Step 3 : Add ``` NgxInternetStatusModule ``` to the imports of your NgModule
+
+```cmd
+@NgModule({
+  imports: [
+    ...,
+    NgxInternetStatusModule
+    
+  ],
+  ...
+})
+class YourModule { ... }
+```
+
+### Usage  
+* Use ``` ``` in your templates to add the default dropdown in your view like below
+
+ 
+ [Goto Top](#table-of-contents)
+## API
+
+#### Input
+
+
+* ```settings:Object``` - Settings object to change the default configurations.
+
+ ```ts
+  settings = {
+    type :'banner',
+    onlineTitle:'Seems good',
+    offlineTitle:'Connection error',
+    onlineText:'Hurray! You are back online',
+    offlineText:'Oops! Looks like you are offline',
+  }
+ ```
+
+#### Output
+
+
+  
+  [Goto Top](#table-of-contents)
+
+## Help Improve
+
+Found a bug or an issue with this? [Open a new issue](https://github.com/SandeepBalachandran/ngx-sand-internet-status/issues) here on GitHub.
+
+
+## Contribute
+Please check the [**Contributing Guidelines**](https://github.com/SandeepBalachandran/ngx-sand-internet-status/blob/main/CONTRIBUTING.md) before contributing.
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5. 
