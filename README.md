@@ -46,8 +46,8 @@
 ## Demo 
 ![](https://github.com/SandeepBalachandran/ngx-sand-internet-status/raw/main/assets/demo.gif) 
 
-* [Live Demo]()
-* [Playground]()
+* [Live Demo](https://sandeepbalachandran.github.io/ngx-sand-internet-status/)
+* [Playground](https://stackblitz.com/edit/sand-internet-status)
 * [NPM package](https://www.npmjs.com/package/ngx-sand-internet-status)
 
 ## Table of contents
@@ -80,6 +80,24 @@ import { NgxInternetStatusModule } from 'ngx-internet-status'
     ...,
     NgxInternetStatusModule
     
+  ],
+  ...
+})
+class YourModule { ... }
+```
+
+### Step 4: After installation import  service into your  module
+
+```cmd
+import { NgxInternetStatusService } from "ngx-sand-internet-status";
+```
+### Step 5 : Add ``` NgxInternetStatusService ``` to the providers of your NgModule
+
+```cmd
+@NgModule({
+  providers: [
+    ...,
+    NgxInternetStatusService
   ],
   ...
 })
